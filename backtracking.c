@@ -96,6 +96,9 @@ int main(){
 	};
 	int i = 0;
 	int j = 0;
+	printf("\n\033[1;31mBase Grid:\033[0;31m\n");
+	printGrid(init_grid);
+	puts("\033[1;32mGrid Solved:\033[0;32m");
 	solve(init_grid, i, j);
 	printGrid(init_grid);
 }
